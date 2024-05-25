@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Wheels</title>
+    <link rel="stylesheet" href="/style/style6.css">
+    <link rel="stylesheet" href="/style/menu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/js/home.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">For Wheels</a>
+        <nav class="navbar">
+            <a href="/page/indexhome.html" style="--i:1" class="nav-item active">Home</a>
+            <a href="#" class="nav-item" style="--i:2">Serviços</a>
+            <a href="/page/indexsobre.html"  class="nav-item" style="--i:3">Sobre</a>
+            <a href="/page/indexparticipantes.html" class="nav-item" style="--i:4">Participantes</a>
+            <a href="/page/indexcontato.html" class="nav-item" style="--i:4">Contato</a>
+            <a href="/page/indexlogin.html" class="nav-item" style="--i:4">Login</a>
+        </nav>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()">
+                <img class="icon" src="/image/white.png" height="36px" width="36px" alt="">
+            </button>
+        </div>
+        <div class="mobile-menu">
+            <nav class="nav">
+                <a href="/page/indexhome.html" style="--i:1" class="nav-item active">Home</a>
+                <a href="#" class="nav-item" style="--i:2">Serviços</a>
+                <a href="/page/indexsobre.html"  class="nav-item" style="--i:3">Sobre</a>
+                <a href="/page/indexparticipantes.html" class="nav-item" style="--i:4">Participantes</a>
+                <a href="/page/indexcontato.html" class="nav-item" style="--i:4">Contato</a>
+                <a href="/page/indexlogin.html" class="nav-item" style="--i:4">Login</a>
+            </nav>
+        </div>
+        <div class="social-media">
+            <a href="#" style="--i:1"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#" style="--i:2"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#" style="--i:3"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="item">
+            <div class="contato">
+                <div class="first-text">Vamos entrar em contato</div>
+                <img src="/image/logo-image.png" alt="" class="image">
+                <div class="social-links">
+                    <span class="secnd-text">Conecte conosco:</span>
+                    <ul class="social-media1">
+                        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-whatsapp'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram-alt'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="enviar-para">
+                <h4 class="third-text" text>Fale conosco</h4>
+                    <form action="">
+                    <div class="input-box">
+                       <input type="text" class="input" required>
+                       <label for="">Name</label>
+                   </div>
+                   <div class="input-box">
+                    <input type="email" class="input" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="tel" class="input" required>
+                    <label for="">Telefone</label>
+                </div>
+                <div class="input-box">
+                    <textarea name="" class="input" id="mensagem" cols="30" rows="10"></textarea>
+                    <label for="">Mensagem</label>
+                </div>
+                <input type="enviar" class="btn" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
