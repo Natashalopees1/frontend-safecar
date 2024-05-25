@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Wheels</title>
+    <link rel="stylesheet" href="/style/style2.css">
+    <link rel="stylesheet" href="/style/menu.css">
+    <script src="/js/main.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">For Wheels</a>
+        <nav class="navbar">
+            <a href="/page/indexhome.html" style="--i:1" class="nav-item active">Home</a>
+            <a href="#" class="nav-item" style="--i:2">Serviços</a>
+            <a href="/page/indexsobre.html"  class="nav-item" style="--i:3">Sobre</a>
+            <a href="/page/indexparticipantes.html" class="nav-item" style="--i:4">Participantes</a>
+            <a href="/page/indexcontato.html" class="nav-item" style="--i:4">Contato</a>
+            <a href="/page/indexlogin.html" class="nav-item" style="--i:4">Login</a>
+        </nav>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()">
+                <img class="icon" src="/image/white.png" height="36px" width="36px" alt="">
+            </button>
+        </div>
+        <div class="mobile-menu">
+            <nav class="nav">
+                <a href="/page/indexhome.html" style="--i:1" class="nav-item active">Home</a>
+                <a href="#" class="nav-item" style="--i:2">Serviços</a>
+                <a href="/page/indexsobre.html"  class="nav-item" style="--i:3">Sobre</a>
+                <a href="/page/indexparticipantes.html" class="nav-item" style="--i:4">Participantes</a>
+                <a href="/page/indexcontato.html" class="nav-item" style="--i:4">Contato</a>
+                <a href="/page/indexlogin.html" class="nav-item" style="--i:4">Login</a>
+            </nav>
+        </div>
+        <div class="social-media">
+            <a href="#" style="--i:1"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#" style="--i:2"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#" style="--i:3"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </header>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="Nome" placeholder="Nome"
+                required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="Email" placeholder="Email"required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="Senha" placeholder="Senha"required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="Concordo-com-os-termos-e-condições">
+                <label><input type="checkbox">Concordo com os termos e condições</label>
+            </div>
+            <button type="enviar" class="bnt">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
